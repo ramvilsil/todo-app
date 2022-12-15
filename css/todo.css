@@ -1,0 +1,57 @@
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input {
+    padding: 30px;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: 2px;
+}
+
+li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+
+
+/* Sticky Footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgreen ;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+.remove {
+    padding-bottom: 5px;
+}
