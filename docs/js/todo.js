@@ -29,7 +29,7 @@ function add() {
     show();
 
     return false;
-    
+
 }
 
 //Removes tasks
@@ -63,9 +63,9 @@ function show() {
     //Displays tasks in the list in the order in which they were inputed
     for (var i = 0; i < todos.length; i++) {
         //Also displays the task as a list and creates the delete button
-        html += "<li>" + todos[i] + "<button class='remove' id=" + i +  ">x</button></li>";
+        html += "<li>" + (i + 1) + ". " + todos[i] + "<button class='remove' id=" + i + ">&#10005;</button></li>";
 
-      
+
     };
     html += "</ul>";
     //Displays the task as a list
